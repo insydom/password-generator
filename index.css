@@ -1,0 +1,179 @@
+body {
+    background-color: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#darklightmode-img {
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+    transition: background-color 0.15s;
+}
+
+#darklightmode-img:hover {
+    border-radius: 25%;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+
+.container {
+    width: 550px;
+    padding: 115px 52px;
+    text-align: center;
+    margin: 100px 0 auto 0;
+}
+
+.container-dark {
+    background-color: #1F2937;
+}
+
+.container #title {
+    font-family: 'Karla', sans-serif;
+    width: 350px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    text-align: left;
+    margin: 0;
+}
+
+.title-dark {
+    color: #ffffff;
+}
+
+.container .title-accent-dark {
+    color: #4ADF86;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.desc-dark {
+    color: #D5D4D8;
+}
+
+#buttons-wrapper {
+    display: flex;
+    max-width: 446px;
+}
+
+#symbols-btn, #numbers-btn {
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 35px;
+    border-radius: 6px;
+    padding: 9px 17px;
+    width: 100px;
+    margin-right: 24px;
+}
+
+.symbols-on, .numbers-on {
+    background-color: #10B981;
+}
+
+#numbers-btn {
+    margin-right: 0;
+    width: 106px;
+}
+
+#generator-btn {
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #10B981;
+    border-radius: 6px;
+    padding: 9px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    margin-bottom: 35px;
+    margin-right: 24px;
+}
+
+#hr-wrapper {
+    display: flex;
+    justify-content: start;
+    width: 446px;
+}
+
+hr {
+    margin-bottom: 35px;    
+    margin-top: 0;
+    width: 100%
+}
+
+.hr-dark {
+    border: 1px solid #2F3E53;
+}
+
+#passwords-wrapper {
+    display: flex;
+}
+
+.password {
+    background-color: #273549;
+    color: #55F991;
+    padding: 16px 0;
+    width: 211px;
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#password-one {
+    margin-right: 24px;    
+}
+
+#copy-text-wrapper {
+    display: flex;
+    margin-top: 20px;
+    width: 446px;
+    justify-content: start;
+}
+
+#copy-text-two {
+    margin-left: auto;
+    margin-right: 38.75px;
+}
+
+.copy {
+    color: #6B7280;
+    font-style: italic;
+}
+
+.container-light {
+    background-color:  #ECFDF5;
+}
+
+.title-light {
+    color: #2B283A;
+}
+
+.title-accent-light {
+    color: #10B981;
+}
+
+.desc-light {
+    color: #6B7280;
+}
+
+.hr-light {
+    border: 1px solid #D5D4D8;
+}
+
+.symbols-off, .numbers-off {
+    background-color: #F1202A;
+}

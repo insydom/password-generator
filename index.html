@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      id="darklightmode-img"
+      src="dark-light-mode.png"
+      alt="darkmode_switch"
+    />
+
+    <div class="container container-dark">
+      <h1 id="title" class="title-dark">
+        Generate a <span class="title-accent-dark">random password</span>
+      </h1>
+      <p id="desc" class="desc-dark">Never use an insecure password again.</p>
+      <div id="buttons-wrapper">
+        <button id="generator-btn">Generate passwords</button>
+        <button id="symbols-btn" class="symbols-on">Symbols: ON</button>
+        <button id="numbers-btn" class="numbers-on">Numbers: ON</button>
+      </div>
+      <div id="hr-wrapper">
+        <hr id="hr" class="hr-dark" />
+      </div>
+      <div id="passwords-wrapper">
+        <div class="password" id="password-one"></div>
+        <div class="password" id="password-two"></div>
+      </div>
+      <div id="copy-text-wrapper">
+        <p id="copy-text-one" class="copy"></p>
+        <p id="copy-text-two" class="copy"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
