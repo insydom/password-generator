@@ -177,3 +177,11 @@ hr {
 .symbols-off, .numbers-off {
     background-color: #F1202A;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
